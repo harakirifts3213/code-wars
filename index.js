@@ -9,7 +9,6 @@ const me = {
         street: `1914 Lakewood Drive`,
         city: 'Holladay',
         state: 'Utah'
-        ZipCode: `84117`,
     },
 myFavoriteFoods: [`Pizza`, `Steak`, `Tacos`, `Tika Masala`],
 myFamily: [
@@ -25,3 +24,5 @@ myFamily: [
     },
 ],
 };
+
+console.log(me);
