@@ -10,5 +10,18 @@ const me = {
         city: 'Holladay',
         state: 'Utah'
         ZipCode: `84117`,
-    }
+    },
+myFavoriteFoods: [`Pizza`, `Steak`, `Tacos`, `Tika Masala`],
+myFamily: [
+    {
+        name: `Emily`,
+        age: 21,
+        height: `5'4"`,
+    },
+    {
+        name: `Isaac`,
+        age: 16,
+        height: `5'7"`,
+    },
+],
 };
