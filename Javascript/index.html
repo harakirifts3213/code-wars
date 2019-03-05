@@ -11,15 +11,23 @@
     <div id="colorBlock">
 
     </div>
-    <button>Click me to change color</button>
+    <button onClick="changeColor()">Click me to change color</button>
 
     <script>
         const colors = [`blue`, `red`, `green`, `gold`, `brown`, `yellow`];
         const myElement = document.getElementById('colorBlock');
 
+        let index = 0;
         const changeColor = () => {
-            myElement.style.background
+            myElement.style.background = colors[index];
+            if (index >= colors.length) {
+                index = 0;
+            } else {
+                index = index + 1;
+            }
+            
         }
+        
     </script>
 </body>
 </html>
