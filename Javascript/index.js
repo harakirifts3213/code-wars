@@ -8,8 +8,7 @@ const me = {
     address:{
         street: `1914 Lakewood Drive`,
         city: 'Holladay',
-        state: 'Utah'
-        ZipCode: `84117`,
+        state: 'Utah',
     },
 myFavoriteFoods: [`Pizza`, `Steak`, `Tacos`, `Tika Masala`],
 myFamily: [
