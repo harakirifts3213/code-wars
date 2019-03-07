@@ -113,3 +113,57 @@ console.log(josh.addPostive(1,2))
 // var //es5
 // let // es6 let me change what it points to. 
 // const //es6 constant
+
+
+const name = 'joshua'
+
+if(name === 'josh'){
+    console.log("Hello josh");
+}else if(name === 'dan'){
+    console.log("Welcome Dan");
+}else{
+    console.log("We don't know you");
+}
+
+switch(name){
+    case 'josh' : 
+        console.log("Hello josh");
+        break;
+    case 'Dan' :
+        console.log("Welcome Dan");
+        break;  
+    default: 
+        console.log("We don't know you");
+        break;
+}
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+const age = 1;
+
+const ageIsGreaterThanOne = (age) => {
+    if(age > 0){
+        return true;
+    }else{
+        return false;
+    }
+}
+const ageIsGreaterThanOne2 = (age) => {
+    return age > 0 ? true : false;
+}
+
+const age = -1;
+
+//Ternary
+
+const ageIsGreaterThanOne = (age) => {
+    if(age > 0){
+        return true;
+    }else{
+        return false;
+    }
+}
+
+const ageIsGreaterThanOne2 = (age) => {
+    return age > 0 ? true : false;
+}
+
+console.log(ageIsGreaterThanOne2(-1))
