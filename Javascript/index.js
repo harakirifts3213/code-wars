@@ -25,3 +25,91 @@ myFamily: [
 ],
 };
 
+// what Josh wrote
+
+// // Nouns adjective and verbs.
+
+// ///Basic Data Types
+// 'abc' "abc" `abc` ///strings
+// 10 //numbers
+//     /// ====> Int, Float 
+// true false //booleans
+
+// null undefined /// Valueless 
+
+// NaN /// Not A Number. 
+
+// {} //Object nouns
+// [] //arrays lists 
+
+// Josh
+const josh = {
+  height: `5'11`,
+  weight: '180',
+  eyeColor: 'blue',
+  age: 26,
+  birthday:'11/05/1992',
+  email:'veryjoshua@gmail.com',
+  isMale: true,
+  isFemale: false,
+  livesInUSA: true,
+  address:{
+      street: '6020 roseate spoonbill Drive',
+      city: 'Windermere',
+        state: 'Florida',
+        ZipCode: '34786'
+  },
+  myFavoriteFoods:[`Pizza`, `Steak`, `Tamales`, `pozole`],
+  myFamilyMembers:[
+      {
+          name:'Lauren',
+          age: 22,
+          relationship:'Spouse'
+      },
+      {
+        name:'Eli',
+        age: 1,
+        relationship:'Child'
+    },
+  ],
+  addPostive: function(num1, num2) {
+        if(num1 > num2){
+            return num1 - num2;
+        }else{
+            return num2 - num1
+        }
+    }, 
+}
+
+// > greater than
+// < less than
+// === equal to 
+// !== not equal to
+// && both condition have to be true
+// || either or have to be true. 
+
+
+
+
+
+console.log(josh.addPostive(1,2))
+// const name = 'josh';
+// const isTrue = false;
+// const age = 26
+// const arr = [
+//     [1,2,3],
+//     [4,5,6],
+//     [7,8,9]
+// ];
+// const dan = {
+//     isAmazingProgrammer: true,
+// }
+
+// const inSideArr = arr[2]
+
+// console.log(inSideArr[1])
+
+// /// variables 
+// var //es5
+// let // es6 let me change what it points to. 
+// const //es6 constant
