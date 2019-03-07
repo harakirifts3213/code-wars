@@ -1,33 +1,40 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>This is a Demo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="./index.css">
 </head>
+
+<style>
+    #colorBlock {
+        width: 100px;
+        height: 100px;
+        background: black;
+    }
+</style>
+
 <body>
     <div id="colorBlock">
 
     </div>
-    <button onClick="changeColor()">Click me to change color</button>
 
+    <button onclick="changeColor()">Click me to change color</button>
     <script>
-        const colors = [`blue`, `red`, `green`, `gold`, `brown`, `yellow`];
-        const myElement = document.getElementById('colorBlock');
+        //DOM document object model 
 
-        let index = 0;
+        const element = document.getElementById('colorBlock');
+
         const changeColor = () => {
-            myElement.style.background = colors[index];
-            if (index >= colors.length) {
-                index = 0;
-            } else {
-                index = index + 1;
-            }
-            
+
+            element.style.background = "red"
         }
-        
+
     </script>
+
 </body>
+
 </html>
