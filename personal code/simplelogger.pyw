@@ -1,4 +1,4 @@
-**will need to //download files**
+#will need to import files: pyhook, pythoncom
 
 file_log = 'C:\\personal code\\simplelogger.py'
 
